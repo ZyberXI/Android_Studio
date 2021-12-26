@@ -1,0 +1,83 @@
+(standard input):6052:12-26 04:05:21.002  2019  2047 I ActivityManager: Force stopping com.android.todolist appid=10136 user=-1: deletePackageX
+(standard input):6053:12-26 04:05:21.004  2019  2047 I ActivityManager: Killing 6567:com.android.todolist/u0a136 (adj 900): stop com.android.todolist
+(standard input):6054:12-26 04:05:21.008  2019  2047 W ActivityTaskManager: Force removing ActivityRecord{292bbcf u0 com.android.todolist/.MainActivity t8 f}: app died, no saved state
+(standard input):6074:12-26 04:05:21.275  2019  2061 I ActivityManager: Force stopping com.android.todolist appid=10136 user=0: pkg removed
+(standard input):6077:12-26 04:05:21.308  2949  2949 I Finsky  : [2] ydc.g(1): Invalidating cached PackageState for com.android.todolist
+(standard input):6078:12-26 04:05:21.309  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+(standard input):6079:12-26 04:05:21.309  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+(standard input):6080:12-26 04:05:21.309  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor
+(standard input):6081:12-26 04:05:21.309  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+(standard input):6082:12-26 04:05:21.310  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+(standard input):6083:12-26 04:05:21.310  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+(standard input):6084:12-26 04:05:21.322  2949  2949 I Finsky  : [2] ydc.p(3): Package no longer installed: com.android.todolist
+(standard input):6087:12-26 04:05:21.364  2019  2038 E PackageManager: failed to find package com.android.todolist
+(standard input):6088:12-26 04:05:21.365  2019  2038 E OverlayManager: Failed to change enabled overlays for com.android.todolist user 0
+(standard input):6090:12-26 04:05:21.411  2949  2949 I Finsky  : [2] qlq.s(2): Installer: package com.android.todolist was removed. replacing: false
+(standard input):6091:12-26 04:05:21.413  2949  2949 I Finsky  : [2] qmo.L(12): Installer: Notifying status update. package=com.android.todolist, status=UNINSTALLED
+(standard input):6110:12-26 04:05:21.526  2949  8168 I Finsky  : [299] gvx.a(12): Asset module storage cleared for package com.android.todolist.
+(standard input):6114:12-26 04:05:21.558  2949  2949 I Finsky  : [2] ydc.p(3): Package no longer installed: com.android.todolist
+(standard input):6131:12-26 04:05:21.714  2949  8203 I Finsky  : [306] rab.C(2): IQ: Notifying installation update. package=com.android.todolist, status=UNINSTALLED
+(standard input):6134:12-26 04:05:21.756  7108  8179 I BlockstoreStorage: Clearing all the Blockstore Data for package com.android.todolist [CONTEXT service_id=258 ]
+(standard input):6137:12-26 04:05:21.781  7108  7157 E WorkSourceUtil: Could not find package: com.android.todolist
+(standard input):6138:12-26 04:05:21.851  7108  8221 I Icing   : doRemovePackageData com.android.todolist
+(standard input):6145:12-26 04:05:21.914  2019  2140 D WifiConfigManager: Remove all networks for app ApplicationInfo{db13568 com.android.todolist}
+(standard input):6146:12-26 04:05:21.923  2019  2019 I ConditionProviders: Disallowing condition provider com.android.todolist
+(standard input):6181:12-26 04:05:22.086  2019  2140 E PasspointManager: No app ops listener found for com.android.todolist
+(standard input):6194:12-26 04:05:22.312  2949  2949 I Finsky  : [2] ydc.g(1): Invalidating cached PackageState for com.android.todolist
+(standard input):6195:12-26 04:05:22.315  2949  2949 I Finsky  : [2] ydc.p(3): Package no longer installed: com.android.todolist
+(standard input):6197:12-26 04:05:22.332  7378  8262 I MediaProvider: Begin Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 cmp=com.android.providers.media/.MediaService (has extras) }
+(standard input):6199:12-26 04:05:22.356  7378  8262 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_FULLY_REMOVED dat=package:com.android.todolist flg=0x5000010 cmp=com.android.providers.media/.MediaService (has extras) }
+(standard input):6464:12-26 04:05:58.993  2019  2061 V BackupManagerService: restoreAtInstall pkg=com.android.todolist token=4 restoreSet=0
+(standard input):6471:12-26 04:05:59.034  2949  2949 I Finsky  : [2] ydc.g(1): Invalidating cached PackageState for com.android.todolist
+(standard input):6473:12-26 04:05:59.039  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.packageinstaller/com.android.packageinstaller.PackageInstalledReceiver
+(standard input):6474:12-26 04:05:59.039  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.musicfx/.Compatibility$Receiver
+(standard input):6475:12-26 04:05:59.039  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.android.vending/com.google.android.finsky.packagemanager.impl.PackageMonitorReceiverImpl$RegisteredReceiver
+(standard input):6476:12-26 04:05:59.039  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy
+(standard input):6477:12-26 04:05:59.046  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+(standard input):6478:12-26 04:05:59.048  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+(standard input):6479:12-26 04:05:59.049  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.googlequicksearchbox/com.google.android.apps.gsa.googlequicksearchbox.GelStubAppWatcher
+(standard input):6480:12-26 04:05:59.050  2019  2047 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 (has extras) } to com.google.android.ims/.receivers.RcsAutoStartReceiver
+(standard input):6489:12-26 04:05:59.142  2949  8343 I Finsky  : [314] gvx.a(12): Asset module storage cleared for package com.android.todolist.
+(standard input):6493:12-26 04:05:59.192  2581  8346 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+(standard input):6494:12-26 04:05:59.198  2581  8362 W GCM     : Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.android.todolist flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+(standard input):6495:12-26 04:05:59.205  2581  8351 I FontLog : Package com.android.todolist has no metadata [CONTEXT service_id=132 ]
+(standard input):6503:12-26 04:05:59.251  7108  8352 I BlockstoreStorage: Clearing Blockstore Data for package com.android.todolist [CONTEXT service_id=258 ]
+(standard input):7006:12-26 04:06:24.277  2019  4685 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[640,1176][841,1480]} from uid 10090
+(standard input):7022:12-26 04:06:24.453  2019  2048 I ActivityManager: Start proc 8538:com.android.todolist/u0a137 for activity {com.android.todolist/com.android.todolist.MainActivity}
+(standard input):7043:12-26 04:06:25.269  1796  1796 E Layer   : [Surface(name=AppWindowToken{cee6cac token=Token{4966a5f ActivityRecord{1bd2fe u0 com.android.todolist/.MainActivity t10}}})/@0x43706e0 - animation-leash#0] No local sync point found
+(standard input):7045:12-26 04:06:25.292  1796  1796 E Layer   : [Surface(name=AppWindowToken{cee6cac token=Token{4966a5f ActivityRecord{1bd2fe u0 com.android.todolist/.MainActivity t10}}})/@0x43706e0 - animation-leash#0] No local sync point found
+(standard input):7082:12-26 04:06:26.441  2019  2046 I ActivityTaskManager: Displayed com.android.todolist/.MainActivity: +2s162ms
+(standard input):7106:12-26 04:06:29.473  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):7114:12-26 04:06:30.795  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):7121:12-26 04:06:30.850  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):7188:12-26 04:06:44.675  2019  2406 E InputDispatcher: Window handle Window{75e6d3b u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):7221:12-26 04:06:49.994  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):7233:12-26 04:06:51.577  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):7235:12-26 04:06:51.610  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):7245:12-26 04:06:52.008  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):7252:12-26 04:06:53.708  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 3 lines
+(standard input):7282:12-26 04:07:03.748  2019  2109 E InputDispatcher: Window handle Window{6cbdc42 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):7283:12-26 04:07:03.765  2019  2363 E InputDispatcher: Window handle Window{6cbdc42 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):7301:12-26 04:07:05.470  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):7319:12-26 04:07:08.012  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):7321:12-26 04:07:08.024  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):7359:12-26 04:07:15.802  2019  4685 E InputDispatcher: Window handle Window{1b29423 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):7360:12-26 04:07:15.820  2019  4272 E InputDispatcher: Window handle Window{1b29423 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):7361:12-26 04:07:15.840  2019  4272 E InputDispatcher: Window handle Window{1b29423 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8226:12-26 04:13:26.590  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):8228:12-26 04:13:26.627  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):8258:12-26 04:13:32.940  2019  5136 E InputDispatcher: Window handle Window{278904e u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8259:12-26 04:13:32.959  2019  3975 E InputDispatcher: Window handle Window{278904e u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8260:12-26 04:13:32.975  2019  3975 E InputDispatcher: Window handle Window{278904e u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8275:12-26 04:13:35.216  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):8284:12-26 04:13:36.389  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):8286:12-26 04:13:36.432  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):8341:12-26 04:13:56.189  2019  2033 E InputDispatcher: Window handle Window{ca38855 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8343:12-26 04:13:56.206  2019  4272 E InputDispatcher: Window handle Window{ca38855 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8529:12-26 04:15:06.828  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):8539:12-26 04:15:08.103  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggestion = Show : AutoCorrection = Disable : Microphone = Show : NoPersonalizedLearning = Disable
+(standard input):8541:12-26 04:15:08.118  2496  2496 I Conv2QueryExtension: Conv2Query not enabled due to current app [com.android.todolist] not in whitelist
+(standard input):8559:12-26 04:15:09.959  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 1 line
+(standard input):8570:12-26 04:15:12.466  2019  5136 E InputDispatcher: Window handle Window{5adcdf6 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+(standard input):8584:12-26 04:15:14.060  8538  8566 I chatty  : uid=10137(com.android.todolist) RenderThread identical 2 lines
+(standard input):8592:12-26 04:15:15.255  2496  2496 I AndroidIME: LatinIme.onActivate() : EditorInfo = Package = com.android.todolist : Type = Text : Learning = Disable : Suggest
